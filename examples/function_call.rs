@@ -46,7 +46,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                 required: Some(vec![String::from("coin")]),
             },
         }]),
-        function_call: Some("auto".to_string()),
+        function_call: None,
         temperature: None,
         top_p: None,
         n: None,
